@@ -1,0 +1,14 @@
+<h3>{{ post.title }}</h3>
+<div class="date">
+	{{ post.dateBegin | date: '%m/%y' }} 
+	{% if post.dateEnd %} 
+		{{page.dateTo}}
+		{{ post.dateEnd | date: '%m/%y' }} 
+	{% endif %}
+</div>
+<p class="role">
+	{{ post.rolePT }}
+</p>
+
+
+
