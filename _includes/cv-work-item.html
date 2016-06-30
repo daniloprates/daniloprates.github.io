@@ -1,4 +1,4 @@
-{% if post.dateEnd %}
+{% if post.dateBegin %}
 <h3>{{ post.title }}</h3>
 <div class="date">
 	{{ post.dateBegin | date: '%m/%y' }} 
@@ -21,11 +21,16 @@
  		<li>
  			{% if project.url %}<a href="{{project.url}}" target="_blank">{% endif %}
  				{% if project.title[page.lang] %}
- 					{{project.title[page.lang]}}
+ 					<h4>{{project.title[page.lang]}}</h4>
  				{% else %}
- 					{{project.title}}
+ 					<h4>{{project.title}}</h4>
  				{% endif %}
  			{% if project.url %}</a>{% endif %}
+			{% if project.description[page.lang] %}
+				<p>{{project.description[page.lang]}}</p>
+			{% elsif project.description %}
+				<p>{{project.description[page.lang]}}</p>
+			{% endif %}
  		</li>
  	{% endfor %}
  </ul>

@@ -17,15 +17,11 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
+                {% for item in page.navbar %}
                 <li class="page-scroll">
-                    <a href="#about">About</a>
+                    <a href="#{{ item[0] }}">{{ item[1] }}</a>
                 </li>
-                <li class="page-scroll">
-                    <a href="#history">{{page.history}}</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="#contact">Contact</a>
-                </li>
+                {% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->
