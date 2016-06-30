@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <body class="markdown-body">
+    <link rel="stylesheet" type="text/css" href="css/core.css">
+    <link rel="stylesheet" type="text/css" href="css/github-markdown.css">
+    <div class="container">
+      <div class="boxed-group">
+        <div class="readme">
+          <div class="markdown-body content">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="node_modules/markdown/lib/markdown.js"></script>
+    <!-- <script src="node_modules/js-yaml/lib/js-yaml.js"></script> -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+    <script>
+      $.get('./content.md',function(data){
+        $('.content').html(markdown.toHTML(data));
+      });
+    </script>
+
+  </body>
+</html>

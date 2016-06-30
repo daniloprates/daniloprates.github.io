@@ -1,0 +1,24 @@
+.container {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.boxed-group {
+    position: relative;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+.readme .markdown-body, .readme .plain {
+    padding: 45px;
+    word-wrap: break-word;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.markdown-body {
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 16px;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
