@@ -9,10 +9,7 @@
  
 ***
 
-
 #Work History
-
-
 
 ## Brand42
 **Senior Font End Developer**  
@@ -20,9 +17,9 @@ Londres | 08/14 - 12/14
 
 > Development for the Brand42 clients websites, such as Visit Britain and Top Gear (BBC)
 
-```HTML5, CSS3, Javascript, jQuery, SASS, Less, PHP, Node JS, Grunt, Compass, BEM Notation.```
+`HTML5` `CSS3` `Javascript` `jQuery` `SASS` `Less` `PHP` `Node JS` `Grunt` `Compass` `BEM Notation.`
 
-### Projetos
+### Projects
 
 * [Lovewall - Visit Britain](http://lovewall.visitbritain.com/en)
 * [TopGear - BBC](http://topgear.com)
@@ -37,30 +34,29 @@ São Paulo | 02/14 - 06/14
 
 > Gestão e desenvolvimento dos websites da Gestão Aberta, da Prefeitura da Cidade de São Paulo.
 
-```HTML, JS, JQuery, CSS, Grunt, Yeoman, Wordpress, PHP, WP Codex, MySql```
+`HTML` `JS` `JQuery` `CSS` `Grunt` `Yeoman` `Wordpress` `PHP` `WP Codex` `MySql`
 
-### Projetos
+### Projects
 - Gestão Urbana - Participe
 - Plano de Metas
 
 
 ## UOL - Universo Online
-**Desenvolvedor de Interfaces Sênior**  
+**Senior Front End Developer**  
 São Paulo | 02/12 - 01/14
 
 > Desenvolvimento de novas features para o PublicadorUOL, CMS interno do UOL, maior website da américa latina.
 
-```JSP, Javascript, JQuery, CSS, XML, JSON, Java```
 
 ## Requestec Ltd.
-**Desenvolvedor de Interfaces Sênior**  
+**Senior Front End Developer**  
 Londres | 03/10 - 12/11
 
 > Creative coding para os websites e programas demo, que demonstram os serviços de vídeo, voz e chat, oferecidos pela empresa.
 
-```HTML, CSS, JS, AJAX, jQuery, jquery Mobile```
+`HTML` `CSS` `JS` `AJAX` `jQuery` `jquery Mobile`
 
-### Projetos
+### Projects
 * [__SayPage__](http://saypage.com) -  Plataforma que possibilita a profissionais especializados venderem consultas por vídeo, voz e texto. Comporta que parceiros modifiquem e customizem a aparência do website.
 * __ZMobile__ - Cliente de IM multidispositivos que comporta Video, Voz e IM.
 
@@ -69,7 +65,7 @@ Londres | 03/10 - 12/11
 ###Desenvolvedor de Interfaces Pleno 
 Londres | 11/09 - 02/10
 
-```XHTML, CSS, CSS Sprites, jQuery Js, Dreamweaver Templates```
+`XHTML` `CSS` `CSS Sprites` `jQuery Js` `Dreamweaver Templates`
 
 ### Projeto
 * __GSK Influenza Hotsite__ - Hotsites para todos os países com presença da GSK com informações sobre a gripe suína
@@ -81,15 +77,15 @@ Londres | 07/09 - 10/10
 
 > Web Design e Desenvolvimento de Interface Sênior. Design e desenvolvimento de páginas especiais para programas e promoções da Current TV UK.
 
-```XHTML, CSS, CSS Sprites, Prototype Js```
+`XHTML, CSS, CSS Sprites, Prototype Js`
     
 ## Shooting People
 **Desenvolvedor de Interfaces Pleno**  
 Londres | 07/09
 
-```XHTML, CSS, CSS Sprites, Flash video player skinning, PHP Symphony```
+`XHTML` `CSS` `CSS Sprites` `Flash video player skinning` `PHP Symphony`
 
-### Projetos
+### Projects
 
 * **4docs** - Desenvolvimento da interface para o hotsite de festival de documentários 4docs.
 
@@ -98,9 +94,9 @@ Londres | 07/09
 **Desenvolvedor de Interface Pleno**  
 São Paulo | 02/08 - 05/09
 
-```JSP, Velocity, Javascript, Yahoo YUI, CSS, Image Sprites```
+`JSP` `Velocity` `Javascript` `Yahoo YUI` `CSS` `Image Sprites`
 
-### Projetos
+### Projects
 * CPFlex - PDF Reader made with Adobe Flex - 2008/09
 * Planos.cl - planos.cl - The most important Chilean street-map  - 2008
 * Páginas Amarillas - paginasamarillas.com.ar - Argentine Yellow Pages - 2008
