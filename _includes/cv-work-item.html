@@ -11,7 +11,7 @@
 <p class="description"> {{post.description[page.lang] }} </p>
 <ul class="languages">
 	{% for tag in post.tags %}
- 		<li>{{tag}}</li>
+ 		<code>{{tag}}</code>
  	{% endfor %}
  </ul>
  {% if post.projects %}
