@@ -9,13 +9,13 @@ role:
 category: project
 tags: ["MithrilJS", "Velocity", "HTML 5", "CSS3", "Javascript", "SASS", "Grunt", "ES6", "ECMAScript 2015", "ECMAScript 2016", "Gulp", "Browserify"]
 ---
-For this project I helped my 4-member team to decide the techmnologies and languages to be used. We chose to use Mithril.js, due to its minimal size and great features.
+UOL's scoreboard for the 2016 Municipal Elections in Brazil. It has received over 17 milion visitors in one day span.
 
-Powered by Halley, UOL's websocket server, the scoreboard received over 17 milion unique visitors in one day span.
+For this project I helped my four member team to decide the technologies and languages to be used. We chose to use Mithril.js, due to its minimal size and great features.
 
-It allowed the user to favorite cities and candidates do follow the votings count.
+Powered by Halley, UOL's powerfull websocket server, it had live update for the main cities in Brazil and minute-to-minute updates for the remain ones. It allowed the user to favorite cities and candidates do follow the votings count.
 
-Using a feature that allowed it to have different skins, the scoreboard was also embed in 10 other websites.
+Using a skins feature, the scoreboard was also embed in 10 other websites, UOL partners.
 
-As a result, the scoreboard was used and shared by the candidates, also making appearances in the national media.
+As a result, the scoreboard was used and shared by many candidates, also making appearances in the national media.
 

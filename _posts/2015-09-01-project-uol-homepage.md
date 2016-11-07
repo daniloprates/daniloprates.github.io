@@ -12,16 +12,7 @@ tags: ["MithrilJS", "Velocity", "HTML 5", "CSS3", "Javascript", "SASS", "Grunt",
 
 <a href="https://translate.google.com/translate?sl=pt&tl=en&js=y&prev=_t&hl=pt-BR&ie=UTF-8&u=http%3A%2F%2Fsobreuol.noticias.uol.com.br%2F&edit-text=" target="_blank">UOL</a> is the largest website in Latin America, with more than 50 milion unique visitors per month.
 
-I work in the 4 member team that built and manages the UOL Homepage, which receives over 7,4 bilion montly visitors.
+I work in the 4 member team that built and manages the <a href="http://uol.com.br" target="_blank"></a>>UOL Homepage</a>, which receives over 7,4 bilion montly visitors.
 
-We also developed the <a href="http://bol.com.br" target="_blank">BOL</a> (Brazil Online) new responsive homepage, UOL's smaller brother, among with standalone projects, like the <a href="http://placar.eleicoes.uol.com.br/2016/1turno/" target="_blank">2016 Brazilian Election Scoreboard</a> and the Impeachment Scoreboard.
-
-
-
-
-
-
-
-
-
+My role is to develop new features for the homepage.
 
