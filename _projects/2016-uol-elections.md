@@ -5,8 +5,6 @@ client: "uol"
 location: "Sao Paulo - Brazil"
 date: 2016-08-01 12:00:00 GMT
 dateStr: "AUG 2016"
-role: 
-category: project
 tags: ["MithrilJS", "Velocity", "HTML 5", "CSS3", "Javascript", "SASS", "Grunt", "ES6", "ECMAScript 2015", "ECMAScript 2016", "Gulp", "Browserify"]
 ---
 UOL's scoreboard for the 2016 Municipal Elections in Brazil. It has received over 17 milion visitors in one day span.
