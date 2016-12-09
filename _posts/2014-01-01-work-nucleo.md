@@ -1,5 +1,4 @@
 ---
-layout: cv-post
 title:  "Nucleo Digital"
 location: {
 	PT: "São Paulo",
