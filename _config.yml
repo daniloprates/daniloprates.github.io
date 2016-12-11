@@ -7,8 +7,15 @@ skills: "Front End Developer"
 meta_author: Prates Danilo
 
 collections:
-  - work
-  - projects
+  general:
+  work:
+  projects:
+    output: true
+
+defaults:
+  -
+    values:
+      layout: "single"
 
 # Google webmaster tools
 google_verify:

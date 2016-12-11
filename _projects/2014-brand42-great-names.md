@@ -1,5 +1,6 @@
 ---
 id: "great-names"
+slug: "great-names"
 title:  "Great Names"
 client: "uol"
 location: "Sao Paulo - Brazil"
@@ -20,7 +21,7 @@ VisitBritain’s China campaign encouraged visitors to re-name famous British la
 Ogilvy & Mather Beijing was the brains behind this innovative idea while we collaborated with them to deliver the UX and build of this project which has since increased Chinese visits to the UK by a whooping 23%.
 
 
- 
+
 The Big Idea
 Building on the back of the LoveWall, the big idea was to encourage Chinese tourists to rename the sites they had visited in Great Britain. Our personal favourite landmark, The Shard, was renamed Zhai Xing Ta or in other words “the tower that allows us to pluck stars from the sky”, whilst fellow landmark, The Gherkin, got a much less complimentary name: Xiao Huang Gua or "the pickled little cucumber".
 
