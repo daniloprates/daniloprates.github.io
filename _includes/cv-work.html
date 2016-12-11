@@ -2,10 +2,24 @@
     <section id="history">
         <div class="container">
             <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
                 {% assign posts = site.work | sort: 'dateBegin' | reverse %}
                 {% for post in posts %}
                     {% include cv-work-item.html %}
                 {% endfor %}
+
+                {% assign posts = site.general | sort: 'dateBegin' | reverse %}
+                {% for post in posts %}
+                    {% for item in post %}
+                        <p><b>{{item}}</b> </p>
+                    {% endfor %}
+                {% endfor %}
+
             </div>
         </div>
     </section>

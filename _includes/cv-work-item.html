@@ -1,19 +1,19 @@
 {% if post.dateBegin %}
 <h3>{{ post.title }}</h3>
 <div class="date">
-	{{ post.dateBegin | date: '%m/%y' }} 
-	{% if post.dateEnd %} 
-		{{page.dateTo}}
-		{{ post.dateEnd | date: '%m/%y' }} 
+	{{ post.dateBegin | date: '%m/%y' }}
+	{% if post.dateEnd %}
+		to
+		{{ post.dateEnd | date: '%m/%y' }}
 	{% endif %}
 </div>
 <p class="role"> {{post.role[page.lang] }} </p>
-<p class="description"> {{post.description[page.lang] }} </p>
-<ul class="languages">
+<p class="description"> {{post.content }} </p>
+<!-- <ul class="languages">
 	{% for tag in post.tags %}
  		<code>{{tag}}</code>
  	{% endfor %}
- </ul>
+ </ul> -->
  {% if post.projects %}
  <h4>Projects</h4>
  <ul class="projects">
@@ -26,11 +26,7 @@
  					<h4>{{project.title}}</h4>
  				{% endif %}
  			{% if project.url %}</a>{% endif %}
-			{% if project.description[page.lang] %}
-				<p>{{project.description[page.lang]}}</p>
-			{% elsif project.description %}
-				<p>{{project.description[page.lang]}}</p>
-			{% endif %}
+			{{project.content}}
  		</li>
  	{% endfor %}
  </ul>

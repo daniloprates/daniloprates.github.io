@@ -1,0 +1,65 @@
+$primary: #80B3FF;
+$primary-rgb: #59c1e2;
+$secondary: #FD6E8A;
+$secondary-dark: #A2122F;
+
+$serif: 'Roboto Slab', serif;
+$sans: 'Roboto Condensed', sans;
+// "Roboto Condensed","Helvetica Neue",Helvetica,Arial,sans-serif
+
+body {
+    overflow-x: hidden;
+    font-family: $serif;
+}
+
+
+p {
+    font-size: 16px;
+}
+
+p.small {
+    font-size: 12px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: $primary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $sans;
+    font-weight: 700;
+    color: #434343;
+}
+
+h1 {
+	font-size: 46px;
+	font-weight: normal;
+}
+h2 {
+	font-size: 32px;
+	font-weight: normal;
+}
+h3 {
+	font-size: 24px;
+	display: inline-block;
+}
+
+.date {
+	font-size: 12px;
+	display: inline-block;
+
+}
+
+// h4 {
+// 	font-family: $serif;
+// }

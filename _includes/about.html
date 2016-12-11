@@ -3,16 +3,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>About</h2>
+                    <h2>Profile</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>{{page.about1}}</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>{{page.about2}}</p>
+                <div class="col-lg-12">
+                    {% assign prof = site.general | where:"slug", 'profile' %}
+                    <p>{{prof.content}}</p>
                 </div>
             </div>
         </div>
