@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   {% include cv-head.html %}
-  <body id="page-top" class="page1">
+  <body id="page-top" class="page">
     <div class="container">
       {% comment %}
       {% include cv-navbar.html %}
@@ -9,8 +9,10 @@
       {% include cv-header.html %}
       {% include about.html %}
       {% include cv-work.html %}
-      {% include contact.html %}
-      {% include footer.html %}
+      {% include cv-other.html %}
+      {% comment %}
+        {% include contact.html %}
+      {% endcomment %}
       {% include modals.html %}
       {% include javascript.html %}
     </div>

@@ -73,6 +73,24 @@ In this synthesizer, every piece of state is kept in the Redux store. It's a sta
 
 
 
+# LAYOUT
+
+## LEFT
+
+* Name
+* Role
+* Contact
+* Languages
+
+## Right
+
+* Profile
+* Experience
+* Skills
+* Projects
+
+
+
 
 
 
