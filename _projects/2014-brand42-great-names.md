@@ -1,8 +1,8 @@
 ---
-id: "great-names"
+cid: "great-names"
 slug: "great-names"
 title:  "Great Names"
-client: "uol"
+client: "brand42"
 location: "Sao Paulo - Brazil"
 date: 2016-08-01 12:00:00 GMT
 dateStr: "AUG 2016"

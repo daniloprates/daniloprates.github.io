@@ -1,17 +1,14 @@
  <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Profile</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    {% assign prof = site.general | where:"slug", 'profile' %}
-                    <p>{{prof.content}}</p>
-                </div>
-            </div>
+<section id="about">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>Profile</h2>
         </div>
-    </section>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            {% assign profile = site.general | where:"slug", "profile" | first %}
+            <p>{{profile.content}}</p>
+        </div>
+    </div>
+</section>

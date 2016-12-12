@@ -1,5 +1,5 @@
 ---
-id: "bol-homepage"
+cid: "bol-homepage"
 title:  "BOL Homepage"
 client: "uol"
 location: "Sao Paulo - Brazil"

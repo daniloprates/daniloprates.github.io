@@ -1,5 +1,5 @@
 ---
-id: "gonow"
+cid: "gonow"
 title:  "GoNow"
 location: "Sao Paulo - Brazil"
 dateBegin: 2008-01-01 12:00:00 GMT

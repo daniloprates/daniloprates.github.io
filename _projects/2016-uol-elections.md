@@ -1,5 +1,5 @@
 ---
-id: "elections-scoreboard-2016"
+cid: "elections-scoreboard-2016"
 title:  "2016 Brazil Elections Scoreboard"
 client: "uol"
 location: "Sao Paulo - Brazil"

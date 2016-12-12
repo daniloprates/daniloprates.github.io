@@ -1,5 +1,5 @@
 ---
-id: "digital-core"
+cid: "digital-core"
 title:  "Digital Core"
 location: "Sao Paulo - Brazil"
 dateBegin: 2014-01-01 12:00:00 GMT
