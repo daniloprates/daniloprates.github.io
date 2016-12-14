@@ -8,7 +8,11 @@
     <div class="row">
         <div class="col-lg-12">
             {% assign profile = site.general | where:"slug", "profile" | first %}
-            <p>{{profile.content}}</p>
+            {% if include.version == 'short' %}
+                <p>{{profile.summary}}</p>
+            {% else %}
+                <p>{{profile.content}}</p>
+            {% endif %}
         </div>
     </div>
 </section>
