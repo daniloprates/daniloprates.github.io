@@ -10,7 +10,11 @@
 			{% endif %}
 		</div>
 		<p class="role"> &#124; {{post.role }} </p>
-		<div class="description"> {{post.content }} </div>
+		{% if post.summary %}
+			<div class="description"> {{post.summary }} </div>
+		{% else %}
+			<div class="description"> {{post.content }} </div>
+		{% endif %}
 	</div>
 
 

@@ -1,0 +1,84 @@
+---
+---
+
+@import 'core';
+@import 'cv';
+@import 'print';
+
+// @media print {
+
+    .container {
+    	padding: 1.5cm 1.5cm .5cm 7.5cm;
+
+    }
+
+    section {
+    	margin-bottom: 20px;
+    }
+
+	.cv-left {
+		width: 6cm;
+		background: lightgray;
+		top: 1cm;
+		bottom: 1cm;
+		left: 1cm;
+		position: absolute;
+		padding: .5cm .5cm .5cm .5cm ;
+
+		table {
+			font-size: 12px;
+		}
+		th {
+			vertical-align: top;
+			text-align: left;
+			width: 40%;
+		}
+		td {
+			width: 3cm;
+			text-align: right;
+		}
+
+
+
+	}
+
+	.tags {
+		margin-top: 0;
+		text-align: right;
+	}
+
+	.cv-left__picture {
+		img {
+			border-radius: 100%;
+			width: 100%
+		}
+	}
+
+	h1 {
+		font-size: 35px;
+		font-weight: bold;
+		margin: 0 0 5px;
+	}
+	h2 {
+		font-size: 26px;
+		font-weight: normal;
+		margin-top: 0;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		margin: 0 0 5px;
+	}
+
+	.role {
+		text-align: center;
+		font-size: 20px;
+		font-family: $sans;
+		margin: 0 0 5px;
+		width: 100%;
+	}
+
+
+
+
+
+// }

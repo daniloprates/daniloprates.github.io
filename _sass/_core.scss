@@ -44,6 +44,7 @@ h6 {
     font-family: $sans;
     font-weight: 700;
     color: #434343;
+    //
 }
 
 h1 {
@@ -53,6 +54,7 @@ h1 {
 h2 {
 	font-size: 32px;
 	font-weight: normal;
+    margin-top: 0;
 }
 h3 {
 	font-size: 24px;
@@ -68,4 +70,14 @@ h3 {
 
 ul {
     padding: 0;
+}
+
+code {
+    display: inline-block;
+    background: #ffe1e5;
+    border: 1px solid pink;
+    padding: 2px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-family: "Share Tech Mono", monospace;
 }
