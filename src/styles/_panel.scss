@@ -1,0 +1,250 @@
+
+.Panel {
+  height: 270px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  box-sizing: border-box;
+  padding: 10px 10px 0;
+
+
+  h1 {
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'OAF 300';
+    line-height: 19px;
+    height: 40px;
+    margin-bottom: 5px;
+    color: $pageTitleText;
+  }
+
+  h3 {
+    text-align: left;
+    padding: 3px 5px 5px 15px;
+    color: $panelText;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  * {
+    outline: none;
+  }
+
+  label {
+    color: $panelText;
+    width: 100%;
+    display: block;
+    font-size: 11px;
+    padding: 4px 0 1px;
+  }
+
+  select {
+    background: $selectBg;
+    color: $selectText;
+    min-width: 50%;
+    max-width: 100%;
+    border: none;
+    -webkit-appearance: button;
+    padding: 5px;
+    border-radius: $selectRadius;
+  }
+  button {
+    background: $buttonBg;
+    color: $buttonText;
+    border: none;
+    margin-right: 1px;
+    padding: 5px 0;
+    font-size: 10px;
+    &:last-child{
+      margin-right: 0;
+    }
+    &.active-true, &:active {
+      background: $buttonBgActive;
+      text: $buttonTextActive;
+      border: none;
+      color: white;
+    }
+  }
+
+  .button-set {
+    width: 100%;
+    display: flex;
+
+    button {
+      flex-grow: 1;
+      &:first-child {
+        border-radius: $buttonRadius 0 0 3px;
+      }
+      &:last-child{
+        border-radius: 0 3px 3px 0;
+      }
+    }
+  }
+
+
+}
+
+.panel-content {
+  background: $panelBg;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border-radius: 6px 6px 0 0;
+  height: 85%;
+  // border-bottom: 5px solid $pageBg;
+}
+
+
+.panel-tabs {
+  display: flex;
+  flex-grow: 7;
+  width: 10px;
+  box-sizing: border-box;
+  position: relative;
+}
+.panel-tab {
+  width: 100%;
+  flex-direction: row;
+  display: none;
+  &.tab-active {
+    display: flex;
+  }
+}
+
+.panel-item {
+  width: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  position: relative;
+  flex-grow: 1;
+
+  &:before {
+    background: $panelTitleBg;
+    content: "";
+    width: 10px;
+    height: 23px;
+    text-align: left;
+    position: absolute;
+    left: 11px;
+  }
+}
+
+.PanelGlobal,
+.PanelOscillators,
+.PanelEnvelope,
+.PanelFilter,
+.PanelDelay,
+.PanelReverb,
+.PanelLfo,
+.PanelFx,
+.PanelRec,
+// .PanelKeyboard,
+{
+  @extend .panel-item;
+}
+
+.PanelGlobal {
+  flex-grow: 1.5;
+  &:before {
+    display: none;
+  }
+}
+.PanelOscillators {
+  flex-grow: 2;
+}
+.PanelFx {
+  flex-grow: .75;
+}
+.PanelRec {
+  flex-grow: .5;
+}
+
+
+.PanelOscillator {
+  width: 50%;
+  text-align: center;
+  float: left;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+.PanelCompsLed {
+  width: 10px;
+  height: 10px;
+  background: darken($controllerLed, 30);
+  text-align: center;
+  margin: 0 auto 10px;
+  border-radius: 50%;
+  box-shadow: -1px -1px 2px darken($controllerLed, 30) inset;
+  &.is-on-true {
+    background: $controllerLed;
+    box-shadow: -1px -1px 2px darken($controllerLed, 30) inset, 0px 0px 5px 2px rgba(255, 255, 255, 0.2);
+  }
+}
+
+.panel-global-bpm {
+  font-family: 'Orbitron';
+  background: $bpmBg;
+  border: 1px inset;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+.panel-global-presets {
+  width: 100%;
+}
+
+.PanelRec button {
+  width: 0;
+  height: 0;
+  background: #929086;
+  border-radius: 100%;
+  box-sizing: border-box;
+  border: 20px solid #cccabb;
+  padding: 7px;
+  &.is-recording-true {
+    background: red;
+  }
+  &:active {
+    background: #cccabb;
+    border: 20px solid #929086;
+  }
+}
+
+
+.PanelKeyboard {
+  height: 15%;
+  background: $panelKeyboardBg;
+  padding: 10px;
+  box-sizing: border-box;
+  label, h3 {
+    display: none;
+  }
+  select {
+    min-width: 0;
+  }
+  .panel-key-scale {
+    width: 40%;
+  }
+  .panel-key-root {
+    width: 10%;
+    border-left: 3px solid #dedcce;
+  }
+  .button-set {
+    float: right;
+    padding-left: 10px;
+    box-sizing: border-box;
+  }
+  .keyboard-octaves {
+    width: 35%;
+  }
+  .keyboard-octave {
+    width: 15%;
+  }
+}

@@ -1,0 +1,122 @@
+$br: 3px;
+$grow-margin: -4.9%;
+
+.keyboard-container {
+  box-sizing: border-box;
+  padding: 270px 0 10px;
+  height: 100vh;
+}
+
+.Keyboard {
+  height: 100%;
+  // height: 60vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  // background: #e57351;
+  box-sizing: border-box;
+  padding: 0 10px;
+  width: 100%;
+
+  ul {
+    display: flex;
+    flex-grow: 1;
+    padding: 0;
+    margin-left: -1px;
+    height: 100%;
+    &:first-child {
+      margin-left: 0;
+      li:first-child{
+        border-radius: 3px 0 0 3px;
+        border-left: none;
+      }
+    }
+    &:last-child {
+      li:last-child{
+        border-radius: 0 3px 3px 0;
+        border-right: none;
+      }
+    }
+  }
+  li {
+    flex-grow: 1.5;
+    box-shadow: $keyWhiteBoxShadow;
+    background: $keyWhiteBg;
+    list-style: none;
+    border-radius: 0 0 $br $br;
+    border-left: 1px solid $keyBorderColor;
+    margin-left: -1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    &.is-playing-true {
+      background: $keyWhiteBgActive;
+      box-shadow: $keyWhiteBoxShadowActive;
+    }
+    &:first-child {
+      margin-left: 0 !important;
+    }
+    &:last-child {
+      margin-right: 0 !important;
+    }
+  }
+
+  &.chromatic {
+
+    li {
+      &.black-key {
+        background: $keyBlackBg;
+        box-shadow: $keyBlackBoxShadow;
+        border-right: 1px solid $keyBorderColor;
+        border-bottom: 1px solid $keyBorderColor;
+        height: 70%;
+        margin-left: $grow-margin;
+        flex-grow: 1;
+        z-index: 1;
+        &.is-playing-true {
+          background: $keyBlackBgActive;
+          box-shadow: $keyBlackBoxShadowActive;
+        }
+        & + li {
+          margin-left: $grow-margin;
+        }
+      }
+    }
+
+  }
+  &:not(.chromatic) {
+    li {
+      &.is-root-true:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        bottom: 10%;
+        left: 50%;
+        margin-left: -5px;
+        border-radius: 50%;
+      }
+      &.white-key {
+        &.is-root-true:before {
+          background: $keyRootWhite;
+        }
+      }
+      &.black-key {
+        background: $keyBlackScaleBg;
+        box-shadow: $keyBlackScaleBoxShadow;
+        border-right: 1px solid $keyBorderColor;
+        border-bottom: 1px solid $keyBorderColor;
+        &.is-playing-true {
+          background: $keyBlackScaleBgActive;
+          box-shadow: $keyBlackScaleBoxShadowActive;
+        }
+        &.is-root-true:before {
+          background: $keyRootBlack;
+        }
+      }
+
+    }
+  }
+
+}

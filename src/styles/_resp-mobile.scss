@@ -1,0 +1,107 @@
+@media (max-width: 780px) {
+
+  html, body, body, #app, #app > div, .app-container {
+    height: 100%;
+  }
+
+  .Panel {
+    height: 40%;
+    position: relative;
+
+    .panel-content {
+      height: 70%;
+    }
+    .PanelKeyboard {
+      height: 30%;
+      .panel-key-scale {
+        // width: 80%;
+      }
+    }
+
+    .PanelGlobal {
+      // label,
+      .panel-global-bpm,
+      .panel-global-bpm-range,
+      select
+      {
+        width: 50%;
+        margin-bottom: 2px;
+        height: 25px;
+        display: inline-block;
+        vertical-align: middle;
+        border: 5px solid transparent;
+        box-sizing: border-box;
+      }
+      input[type="range"] {
+        background: transparent;
+      }
+      .panel-global-amplitude {
+        display: none;
+      }
+      .panel-global-presets {
+        width: 70%;
+      }
+      .panel-global-panic {
+      width: 28%;
+      height: 25px;
+      margin-bottom: 2px;
+      float: right;
+      }
+
+      label{
+        display: none;
+      }
+      select {
+        padding: 0;
+      }
+
+    }
+
+    .PanelKeyboard {
+      .keyboard-octave,
+      .keyboard-octaves {
+        width: 25%;
+      }
+    }
+
+    .panel-tabs {
+      display: none;
+    }
+
+    .btn-octaves {
+      display: none;
+      &:first-child,
+      &:nth-child(2) {
+        display: block;
+      }
+    }
+
+    .panel-item, .PanelOscillators {
+      display: none;
+    }
+    .PanelGlobal,
+    .PanelKeyboard {
+      display: block;
+    }
+
+  }
+
+  .keyboard-container {
+    height: 60%;
+    padding: 0 0 10px;
+    .Keyboard {
+
+    }
+
+    li {
+      box-shadow: none;
+      &.is-playing-true {
+        background: #dcdcdc;
+        box-shadow: none;
+      }
+
+    }
+
+  }
+
+}

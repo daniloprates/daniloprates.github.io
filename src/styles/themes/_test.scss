@@ -1,0 +1,55 @@
+
+
+  // MAIN PAGE
+  $pageBg: purple;
+  $pageTitleText: orange;
+
+  // PANEL
+  $panelBg: lightcyan;
+  $panelText: red;
+  // $panelTitleBg: orange;
+  $panelKeyboardBg: lightcoral;
+
+  // Panel mandatory
+
+    $controllersBg: red;
+    $controllersBgActive: blue;
+    $controllersText: orange;
+    $controllersTextActive: yellow;
+
+  // Panel Optionals
+
+  // $panelText: ;
+  $sliderBg: orange;
+  $sliderThumb: cyan;
+  // $buttonBg: ;
+  // $buttonText: ;
+  // $buttonBgActive: ;
+  // $buttonTextActive: ;
+  // $selectBg
+  // $selectText
+
+  // KEYBOARD
+
+  // Keyboard Mandatory
+
+  // White Key
+  $keyWhiteBg: orange;
+  $keyWhiteBgActive: red;
+  $keyWhiteBoxShadow: none;
+  $keyWhiteBoxShadowActive: 0px 3px 1px 3px rgba(0, 0, 0, 0.15) inset;
+
+  // Black Key
+  $keyBlackBg: purple;
+  $keyBlackBgActive: pink;
+  $keyBlackBoxShadow: none;
+  // $keyBlackBoxShadowActive: 0px -4px 1px 4px rgba(0, 0, 0, 0.5) inset;
+
+  // Black Key on scales
+  $keyBlackScaleBg: red;
+  // $keyBlackScaleBgActive: yellow;
+  // $keyBlackScaleBoxShadow: ;
+  // $keyBlackScaleBoxShadowActive: ;
+
+  $keyRoot: purple;
+
