@@ -4,8 +4,11 @@ category: resume
 id: "resume"
 
 languages: [
-
+    'English': 'Fluent. (4 years living in UK)',
+    'Spanish': 'Advanced',
+    'Portuguese': 'Native'
 ]
+
 skills: {
     'Javacript': 7,
     'React.js': 5,
@@ -14,6 +17,25 @@ skills: {
     'CSS': 9,
     'CSS Preprocessors': 9,
     'CSS Postprocessors': 6,
+}
+
+skills2: {
+
+  'Javascript' : {
+    'Javacript': 7,
+    'React.js': 5,
+    'Mithril.js': 9,
+    'node.js': 5,
+    'VanillaJs': 7,
+    'jQuery': 9
+  },
+
+  'Styling' : {
+  
+}
+
+
+
 }
 
 
