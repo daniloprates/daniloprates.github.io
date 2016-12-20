@@ -1,7 +1,5 @@
-# Redux Synth
-
-Experimental Synthesizer built with Redux.js, React and p5.sound, using the Web Audio API
-
+# Danilo Prates
+## Front End Developer
 
 ## Development
 
