@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-class Work extends Component {
+class Info extends Component {
 
   constructor(props) {
     super(props);
@@ -8,14 +8,14 @@ class Work extends Component {
 
   render() {
     return (
-      <div>Work</div>
+      <div>Info</div>
     );
   }
 }
 
-Work.propTypes = {
+Info.propTypes = {
   className: PropTypes.string,
 };
 
 
-export default Work;
+export default Info;
