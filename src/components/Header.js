@@ -7,15 +7,13 @@ const Header = () => {
   return(
     <header>
       <Container>
-        <h1>Danilo Prates</h1>
-        <IndexLink to="/">Profile</IndexLink>
-        <Link to="/work">Work</Link>
-        <Link to="/info">Info</Link>
-        <Link to="/contact">Contact</Link>
-        {/*<button>Profile</button>
-        <button>Work</button>
-        <button>Info</button>
-        <button>Contact</button>*/}
+        <h1>...</h1>
+        <nav>
+          <IndexLink to="/" className="profile">Profile</IndexLink>
+          <Link to="/work" className="work">Work</Link>
+          <Link to="/info" className="info">Info</Link>
+          <Link to="/contact" className="contact">Contact</Link>
+        </nav>
       </Container>
     </header>
   );

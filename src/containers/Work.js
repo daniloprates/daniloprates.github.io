@@ -1,4 +1,6 @@
 import React, { Component, PropTypes } from 'react';
+import Container from '../components/Container';
+import Page from '../components/Page';
 
 class Work extends Component {
 
@@ -8,7 +10,13 @@ class Work extends Component {
 
   render() {
     return (
-      <div>Work</div>
+      <Page
+        name="Work"
+      >
+        <Container>
+          <p>Blah!</p>
+        </Container>
+      </Page>
     );
   }
 }

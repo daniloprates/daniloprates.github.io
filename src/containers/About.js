@@ -1,4 +1,6 @@
 import React, { Component, PropTypes } from 'react';
+import Container from '../components/Container';
+import Page from '../components/Page';
 
 class About extends Component {
 
@@ -8,7 +10,13 @@ class About extends Component {
 
   render() {
     return (
-      <div>Hello Mondo</div>
+      <Page
+        name="About"
+      >
+        <Container>
+          <p>Blah!</p>
+        </Container>
+      </Page>
     );
   }
 }

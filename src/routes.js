@@ -1,7 +1,8 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { Router, Route, IndexRoute } from 'react-router';
 
-<<<<<<< HEAD
+window.blah = this;
+
 import App from './containers/App';
 import About from './containers/About';
 import Work from './containers/Work';
@@ -10,10 +11,10 @@ import Contact from './containers/Contact';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={About}/>
-    <Route path="work" component={Work}/>
-    <Route path="info" component={Info}/>
-    <Route path="contact" component={Contact}/>
-    <Route path="*" component={About}/>
+    <IndexRoute page="About" component={About}/>
+    <Route path="work" page="Work" component={Work}/>
+    <Route path="info" page="Info" component={Info}/>
+    <Route path="contact" page="Contact" component={Contact}/>
+    <Route path="*" page="About" component={About}/>
   </Route>
 );

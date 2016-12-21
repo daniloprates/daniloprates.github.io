@@ -9,5 +9,5 @@ import './styles/styles.scss'; // Yep, that's right. You can import SASS/CSS fil
 
 render(
   <Router history={browserHistory} routes={routes} />,
-  document.getElementById('app')
+  document.getElementById('container')
 );

@@ -1,4 +1,7 @@
-
+html, body, #container, .app {
+  width: 100%;
+  height: 100%;
+}
 
 /* Styles */
 body {
@@ -8,4 +11,63 @@ body {
   font-smoothing: antialiased;
   padding: 0;
   margin: 0;
+}
+
+$profile: lightblue;
+$work: lightgreen;
+$info: pink;
+$contact: #d4e157;
+
+
+.app {
+  transition: background .5s;
+
+  &.profile {
+    background: $profile;
+    header .profile {
+      color: black;
+    }
+  }
+  &.work {
+    background: $work;
+    header .work {
+      color: black;
+    }
+  }
+  &.info {
+    background: $info;
+    header .info {
+      color: black;
+    }
+  }
+  &.contact {
+    background: $contact;
+    header .contact {
+      color: black;
+    }
+  }
+
+}
+
+header a {
+  transition: color .5s;
+
+  color: darken($profile, 10%);
+  &.work {
+    color: darken($work, 10%);
+  }
+  &.info {
+    color: darken($info, 10%);
+  }
+  &.contact {
+    color: darken($contact, 10%);
+  }
+
+
+}
+
+
+h1 {
+  margin: 0;
+  padding: 0;
 }
