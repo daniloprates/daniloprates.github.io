@@ -6,6 +6,8 @@ const App = (props) => {
 
   let currentRoute = location.pathname.replace('/','') || 'profile';
 
+  document.body.className = currentRoute;
+
   return (
     <div className={`app ${currentRoute}`}>
       <Header />

@@ -4,7 +4,12 @@ import style from '../styles/container';
 
 const Container = (props) => {
   return (
-    <div className="container" style={style}> {props.children} </div>
+    <div
+      className="container"
+      style={Object.assign(style, {'height': props.height})}
+      >
+        {props.children}
+    </div>
   );
 };
 

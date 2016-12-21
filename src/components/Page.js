@@ -3,7 +3,12 @@ import Container from '../components/Container';
 
 const Page = (props) => {
   return (
-    <div className={`page ${props.name}`}>
+    <div
+      className={`page ${props.name}`}
+      style={{
+        'height': props.height
+      }}
+    >
       {props.children}
     </div>
   );

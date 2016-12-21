@@ -7,12 +7,12 @@ const Header = () => {
   return(
     <header>
       <Container>
-        <h1>...</h1>
+        <h1>Danilo Prates</h1>
         <nav>
-          <IndexLink to="/" className="profile">Profile</IndexLink>
-          <Link to="/work" className="work">Work</Link>
-          <Link to="/info" className="info">Info</Link>
-          <Link to="/contact" className="contact">Contact</Link>
+          <IndexLink to="/" className="profile" activeClassName="header-selected" >Profile</IndexLink>
+          <Link to="/work" className="work" activeClassName="header-selected" >Work</Link>
+          <Link to="/info" className="info" activeClassName="header-selected" >Info</Link>
+          <Link to="/contact" className="contact" activeClassName="header-selected" >Contact</Link>
         </nav>
       </Container>
     </header>

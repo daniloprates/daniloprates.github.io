@@ -1,8 +1,6 @@
 import React from 'react';
 import { Router, Route, IndexRoute } from 'react-router';
 
-window.blah = this;
-
 import App from './containers/App';
 import About from './containers/About';
 import Work from './containers/Work';
