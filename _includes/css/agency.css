@@ -359,6 +359,12 @@ section h3.section-subheading {
     margin: 0 0 15px;
 }
 
+#projects .projects-item img {
+    width: 400px;
+    height: 289px;
+}
+
+
 #projects .projects-item .projects-link {
     display: block;
     position: relative;

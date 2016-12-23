@@ -25,3 +25,9 @@ github_username:  daniloprates
 # Build settings
 markdown: kramdown
 theme: minima
+
+collections:
+  general:
+  work:
+  projects:
+    output: true
