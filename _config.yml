@@ -27,7 +27,6 @@ markdown: kramdown
 theme: minima
 
 collections:
-  general:
   work:
   projects:
     output: true

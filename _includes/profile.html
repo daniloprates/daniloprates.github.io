@@ -7,7 +7,7 @@
                     <h3 class="section-subheading text-muted">Front End Developer</h3>
                 </div>
             </div>
-            <div class="row">
+            {% comment %}<div class="row">
                 {% for member in site.people %}
                 <div class="col-sm-4">
                     <div class="profile-member">
@@ -27,14 +27,22 @@
                     </div>
                 </div>
                 {% endfor %}
-            </div>
+            </div>{% endcomment %}
+
+            {% comment %}{{site.data}}{% endcomment %}
+
+
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    {% assign profile = site.general | where:"slug", "profile" | first %}
+                    {% assign profile = site.data | where:"id", "profile" | first %}
+
+                    {% comment %}<p>PROFILE: {{profile}}</p>{% endcomment %}
+
+
                     {% if include.version == 'short' %}
                         <p>{{profile.summary}}</p>
                     {% else %}
-                        <p>{{profile.content}}</p>
+                        <p>{{profile.friendly}}</p>
                     {% endif %}
                 </div>
             </div>

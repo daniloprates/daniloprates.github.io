@@ -1,0 +1,17 @@
+<li class="{{post.cid}} {{ include.class }}">
+    <div class="timeline-image">
+        <img class="img-circle img-responsive" src="img/experience/1.jpg" alt="">
+    </div>
+    <div class="timeline-panel">
+        <div class="timeline-heading">
+            <h4>
+                {{ post.dateBegin | date: "%b %y" }}
+                {% if post.dateEnd %} | {{ post.dateEnd | date: "%b %y" }}{% endif %}
+            </h4>
+            <h4 class="subheading">{{post.title}}</h4>
+        </div>
+        <div class="timeline-body">
+            <div class="text-muted">{{post.summary}}</div>
+        </div>
+    </div>
+</li>
