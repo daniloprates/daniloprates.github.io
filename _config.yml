@@ -26,15 +26,6 @@ github_username:  daniloprates
 markdown: kramdown
 theme: minima
 
-people: [
-    pic: 1
-    name: Danilo Prates
-    position: Front End Developer
-    social:
-      name: Github
-      url: http://github.com/daniloprates
-]
-
 collections:
   general:
   work:
