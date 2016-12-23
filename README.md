@@ -5,21 +5,19 @@ Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/templ
 
 # How to use
 
-###Portfolio 
+###projects
 
-Portfolio projects are in '/_posts'
+projects projects are in '/_posts'
 
-Images are in '/img/portfolio'
+Images are in '/img/projects'
 
-###About
+###Experience
 
-Images are in '/img/about/'
+Images are in '/img/experience/'
 
-###Team
+###Profile
 
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
+Images are in '/img/profile/'
 
 
 # Demo
