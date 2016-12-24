@@ -1,6 +1,6 @@
 ---
 cid: "bol-homepage"
-title:  "BOL Homepage"
+title:  "UOL CMS"
 client: "uol"
 location: "Sao Paulo - Brazil"
 date: 2015-09-01 12:00:00 GMT

@@ -1,7 +1,5 @@
 ---
-modal-id: 1
 cid: "great-names"
-slug: "great-names"
 title:  "Great Names"
 client: "brand42"
 location: "Sao Paulo - Brazil"

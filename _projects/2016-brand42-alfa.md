@@ -1,13 +1,12 @@
 ---
-hidden: true
 cid: alfa
-slug: alfa
-title:  "Alfa"
+title: "Alfa"
 client: "brand42"
 location: "London"
-date: 2016-09-01 12:00:00 GMT
-dateStr: "AUG 2016"
-tags: ["CraftCMS", "PHP", "BEM Notation", "SASS"]
----
+date: 2016-10-01 12:00:00 GMT
+dateStr: "OCT 2016"
+tags: ["CraftCMS", "PHP", "BEM Notation", "SASS", "MaterializeCSS"]
 
-# Alfa
+hidden: true
+---
+Alfa is a fin tech company based in UK. Their new website was conceived by Brand42. The development used CraftCMS and advanced CSS techniques, along with MaterializeCSS.
