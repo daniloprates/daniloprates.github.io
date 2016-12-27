@@ -9,4 +9,4 @@ tags: ["CraftCMS", "PHP", "BEM Notation", "SASS", "MaterializeCSS"]
 
 hidden: true
 ---
-Alfa is a fin tech company based in UK. Their new website was conceived by Brand42. The development used CraftCMS and advanced CSS techniques, along with MaterializeCSS.
+Alfa is a fin tech company based in UK. Their new website was conceived by Brand42. The development used CraftCMS and advanced CSS techniques, along with Materialize CSS.
