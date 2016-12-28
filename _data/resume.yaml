@@ -30,10 +30,15 @@ skills2: {
     'jQuery': 9
   },
 
-  'Styling' : {
-  
-}
+  # 'Styling' : {
+  #   'CSS': 10,
+  #   'Sass': 10,
 
+  # }
+
+  'Styling': [
+    'CSS', 'Sass', 'Stylus', 'PostCSS', 'React inline styling', 'BEM Notation'
+  ]
 
 
 }
@@ -50,4 +55,3 @@ skills2: {
 # Marketing concepts
 
 ---
-The React ecosystem have been my focus for the last year, when I had the chance to work on a few different projects, like a Tennis scoreboard (Reflux) that has received up to 4 million simultaneus users, a Synthesizer (Redux) and several other personal and unfinished projects
