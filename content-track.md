@@ -1,21 +1,21 @@
 
-*A
+*T
 *F
 
 
 # projects
 
-* Alfa A Ff
-* Elections Af
-* Impeachment A F
+* Alfa T Ff
+* Elections Tf
+* Impeachment T F
 * Bayer F
-* Bol A F
+* Bol T F
 * Great Names
 * Visit Britain F (copy B42)
-* Top Gear A F
+* Top Gear T F
 * (Digital Core ones) F
 * UOL Publisher F
-* Saypage A F
+* Saypage T F
 * Requested others? ?
 * GSK F
 * 4Docs F
